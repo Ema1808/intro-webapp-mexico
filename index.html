@@ -7,19 +7,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .color-box {
-      height: 300px; /* Aseguramos que las secciones sean cuadradas */
+      height: 300px; /* Sección cuadrada */
       width: 100%;
       text-align: center;
-      color: white;
-      font-size: 1.5em;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 10px;
     }
     .color-container {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 100px; /* Ajuste para mover solo la bandera hacia abajo */
     }
     .color-section {
       flex: 1;
@@ -30,12 +29,11 @@
     }
     .color-label {
       font-size: 1.2em;
-      margin-bottom: 5px;
     }
     .color-code {
       text-align: center;
       font-size: 1em;
-      margin-top: 10px;
+      margin-top: 5px;
       color: #333;
     }
     #whiteBox {
@@ -44,7 +42,7 @@
       font-size: 2em;
     }
     .at-symbol {
-      line-height: 0.8;
+      line-height: 1.5;
     }
   </style>
 </head>
@@ -53,6 +51,7 @@
   <div class="container text-center">
     <h1>Bandera de México</h1>
 
+    <!-- Manteniendo las palabras y barras en su lugar -->
     <div class="color-container">
       <!-- Sección Verde -->
       <div class="color-section">
@@ -68,7 +67,7 @@
         <div class="color-code">#FFFFFF</div>
         <div id="whiteBox" class="color-box" style="background-color: #FFFFFF;">
           <div class="at-symbol">
-            @@@<br>@@@<br>@@@
+            @@@@@<br>@@@@@<br>@@@@@
           </div>
         </div>
       </div>
